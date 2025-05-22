@@ -1,5 +1,7 @@
 class Pet:
-    pass
+    PET_TYPES =["dog", "cat", "rodent", "bird", "reptile", "exotic"]
+    all = []
+    
 
 class Owner:
     def __init__(self, name):
